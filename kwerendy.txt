@@ -1,0 +1,8 @@
+ZAPYTANIE 1
+	SELECT id, model, kolor FROM `samochody` WHERE marka = "Toyota" AND rocznik = 2014;
+
+ZAPYTANIE 2
+	SELECT id, marka, model, rocznik FROM `samochody`;
+
+ZAPYTANIE 3
+	SELECT Samochody_id, model, telefon FROM `samochody` JOIN `zamowienia` ON samochody.id = zamowienia.Samochody_id;
